@@ -1,0 +1,398 @@
+@media(max-width:391px){
+    *{
+        box-sizing: border-box;
+    }
+ .container{
+    width:100%;
+    padding-left:30px;
+    padding-right:30px;
+ }
+ .started_flex{
+    flex-wrap: wrap;
+ }
+ .startedpara{
+    width: 63%;
+ }
+
+ .contact a{
+    background-color: #4A3AFF;
+    width: 80px;
+    height: 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: flex;
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; 
+    letter-spacing: 0.5px;
+    margin-top: 48px;
+    margin-left: auto;
+}
+
+h4{
+    margin-top: 10px;
+    font-size:14px;
+    font-weight: 700px;
+    text-shadow:  0px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.get{
+    font-size: 8px;
+}
+
+.started{
+    margin-top: 40px;
+    background-image: url("images/Group\ 39819.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.icon1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #B7B7B7;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #B7B7B7;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon3{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #B7B7B7;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:10%;
+}
+
+.icons img{
+
+    height:20px;
+
+}
+
+.started_flex{
+    display:flex;
+    justify-content: space-between;
+}
+
+label{
+    font-size: 12px;
+}
+
+.row{
+    display:flex;
+    margin-top:50px;
+    flex-wrap: wrap;
+}
+
+.info{
+    width: 100%;
+    margin-top: 5px;
+}
+
+input{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 1px solid black;
+    display:block;
+    width:100%;
+    margin-top: 20px;
+    border-radius: 0;
+    font-size:16px;
+}
+
+.info textarea{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    resize:none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    display:block;
+    border-radius: 0;
+}
+
+.btnleave{
+    margin-top:30px;
+    background-color: #4A3AFF;
+    color:white;
+    border-radius: 10px;
+    border:none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.img_portion{
+    background-image: url("images/image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+}
+
+.texts{
+    display:flex;
+    flex-wrap: wrap;
+    color:white;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+li{
+    margin-top: 5px;
+}
+
+.num, .email{
+    text-decoration: underline;
+
+}
+
+.list1, .list2{
+    width: 100%;
+    font-size: 14px;
+}
+
+.texts{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    color:white;
+    padding-top: 50px;
+    gap:20px;
+}
+
+.para{
+    margin-top: 0;
+    width:30%
+}
+
+.assist{
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 10px;
+    width:100%;
+}
+
+.cnt{
+    font-size: 17px;
+    font-weight: 1000px;
+}
+
+
+.map_portion{
+    height: initial;
+    background-image:url("images/Rectangle\ 4523.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.para_img{
+    display: flex;
+    flex-wrap:wrap;
+    padding: 0;
+}
+.text{
+    width: 50%;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    padding-top: 40px;
+}
+
+.search{
+    background-color:  #4A3AFF;
+}
+
+.row_flex{
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.map{
+    padding-top: 20px;
+    width:100%;
+    height: 200px;
+}
+
+h2{
+    color: white;
+    width:100%;
+    
+}
+
+.subs{
+    color: #ECECEC;
+    font-size: 12px;
+    width: 100%;
+}
+
+.writing{
+    width: 60%;
+    font-size: 7px;
+}
+
+.bar{
+    display:flex;
+    height: 40px;
+    border-radius: 6px;
+    border: 0.5px solid #FFF;
+    margin-top:0;
+    justify-content: space-between;
+    overflow:hidden;
+    width:100%;
+    margin-top: 10px;
+}
+
+.inputclass::placeholder{
+    color:white;
+}
+
+input:focus-visible{
+    outline:none;
+}
+
+.inputclass{
+    padding-left: 10px;
+    color:white;
+    height:100%;
+    background-color: transparent;
+    width: calc(100% - 80px);
+    font-size: 12pxpx;
+    border:none;
+}
+
+.btnsubs{
+    background-color: white;
+    color:#4A3AFF;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    padding-left:10px;
+    padding-right: 10px;
+    border: none; 
+    font-size: 12px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last{
+    background-color: black;
+    border-bottom: 0.1px #FDF6F2 solid;
+    height: 650px;
+}
+
+.contain_flex{
+    display:flex;
+    flex-wrap: wrap;
+    font-size:12px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 30px;
+    color:#FFFFFF;
+    gap:20px;
+}
+
+.lined{
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.p1{
+    padding-top: 30px;
+    width: 100%;
+}
+
+.p2{
+    width: 100%;
+}
+
+.p3{
+    width: 100%
+}
+
+.p4{
+    width: 100%;
+}
+
+.parasvg{
+    padding-top: 30px;
+}
+
+.lists1, .lists2, .lists3{
+    display:flex;
+    position:relative; 
+    padding-left: 20px;
+}
+
+.p4 ul li svg{
+    position: absolute;
+    left: 0;
+}
+
+.foot{
+    background-color: black;
+}
+
+.contain_foot{
+    color:white;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size:5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.info1, .info2{
+    width:100%;
+    font-size: 12px;
+}
+
+
+}
+
