@@ -2,12 +2,12 @@ Contact Us Page — Responsive & Simple
   - This is a clean and minimal Contact Us page, designed with responsiveness in mind. It enables users to quickly reach out to the company through a straightforward form and layout.
 
 🔗 Live Preview
-👉 Check it out here
+
+👉  https://somya2005-art.github.io/internship_project_contact_us_1/
 
 🧰 Built With
 - HTML5
-- Sass (SCSS)
-- JavaScript for basic interactivity
+- Css 
 
 ✨ Features
 1. Fully Responsive:
